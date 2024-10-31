@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def create_plot(timestamps: list, title):
+def create_plot(timestamps: list, title=None):
     # Separate timestamps into start and end times
     events = {}
     for event, elapsed_time, type in timestamps:
